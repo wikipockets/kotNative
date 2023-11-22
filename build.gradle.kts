@@ -5,6 +5,10 @@ plugins {
 group = "me.user"
 version = "1.0-SNAPSHOT"
 
+dependencies {
+    implementation("com.squareup.okhttp3:okhttp:4.9.0")
+}
+
 repositories {
     mavenCentral()
 }
